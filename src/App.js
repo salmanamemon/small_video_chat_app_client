@@ -44,7 +44,8 @@ const App = () => {
         <Typography variant="h2" align="center">Aziz Family</Typography>
       </AppBar>
       <VideoPlayer />
-      <div className={open ? 'videoWrapper open' : 'videoWrapper'}>
+      <div>
+      {/* <div className={open ? 'videoWrapper open' : 'videoWrapper'}> */}
         <Sidebar>
           <Notifications />
         </Sidebar>
